@@ -1,21 +1,33 @@
 {
-	"name": "error",
+	"name": "errors",
 	"version": "0.1.0",
-	"description": "error handling utility",
+	
+	"description": "Error Handling Utilities",
+	
 	"keywords": ["error", "arch", "utility"],
-	"author": "Jake Verbaten <raynos2@gmail.com>",
-	"main": "src/error",
-	"repository": "git://github.com/Raynos/error.git",
+	
+	"main": "src/errors",
+
+	"contributors": [
+		"Laurence Rouesnel <laurence@rouesnel.com>"
+	],
+
+	"repository": "git://github.com/laurencer/errors.git",
+
 	"engines": {
-		"node": "0.6.x"
+		"node": "0.8.x"
 	},
+
 	"dependencies": {
-		"fcombine": "0.0.4"
+		"coffee-script": "*"
 	},
+
 	"scripts": {
 		"test": "node test/error-test.js"
 	},
+
 	"devDependencies": {
-		"tester": "0.0.4"
+		"mocha": "1.7.x",
+		"expect.js": "0.2.x"
 	}
 }
